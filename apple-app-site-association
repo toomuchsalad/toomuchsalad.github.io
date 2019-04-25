@@ -5,7 +5,8 @@
      {
       "appID": "CDQ8JGU8PW.com.toomuchsalad.mspapp",
       "paths": [
-       "*"
+       "/*",
+       "/calendar/*"
       ]
      }
     ]
