@@ -1,7 +1,13 @@
 
 <?php
     
-    function push() {
+    function writeMsg() {
+        echo "Hello world!";
+    }
+    
+    writeMsg(); // call the function
+    
+    /*function push() {
         $url = 'https://fcm.googleapis.com/fcm/send';
         $YOUR_API_KEY = 'AAAAyK4rOx4:APA91bHy7lzQU0ZFjmA9PfhjDU7FPT8D0vd9uyKAiKwv4A9XNpoA1e45fk68pIozDIgYrjmkcVL5bWiRz-THR3locl4axxJyhMm_shLkLndMP9mfXgnl2K1IYDuxESQxr1JUxxIbmQhw'; // Server key
         $YOUR_TOKEN_ID = 'id:устройства'; // Client token id
@@ -31,5 +37,5 @@
         echo $response;
     }
     
-    push();
+    push();*/
 ?>
