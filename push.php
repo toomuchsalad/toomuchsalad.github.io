@@ -28,7 +28,7 @@
 	);
 	$fields = array
 	(
-		'to' => '/topics/all',
+		'to' => '/topics/test',
 		"content_available" => true,
 		"mutable_content" => true,
 		'notification' => $msg,
